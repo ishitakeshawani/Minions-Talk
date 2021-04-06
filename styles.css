@@ -10,6 +10,7 @@ body {
     margin: 0;
     font-family: 'Kalam', cursive;
     color: #333333;
+    scroll-behavior: smooth;
 }
 
 #titleofnav{
