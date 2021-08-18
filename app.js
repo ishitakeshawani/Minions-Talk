@@ -15,7 +15,7 @@ function errorHandler(error) {
 }
 
 function clickHandler() {
-    // outputDiv.innerHTML = "hhjh"+txtInput.nodeValue;
+
     var inputText = txtInput.value;
 
     fetch(getTranslationUrl(inputText))

@@ -1,70 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
 :root {
-    --primary: #F2C94C;
-    --black:var(--black);
+    --primary: #3D087B;
+    --black: #F2C94C;
     --width-break: 600px;
-} 
+}
 
 body {
     margin: 0;
-    font-family: 'Kalam', cursive;
+    font-family: 'Mali', cursive;
     color: #333333;
     scroll-behavior: smooth;
+    background: #F2C94C;
 }
 
-#titleofnav{
+#titleofnav {
     font-size: 2rem;
     padding: 1rem;
     text-align: center;
     color: var(--black);
-    background-color:var(--primary);
+    background-color: var(--primary);
 }
 
-.main-content{
+.main-content {
     margin: auto;
     padding: 1rem;
     max-width: var(--width-break);
     display: block;
 }
 
-textarea{
+textarea {
     box-sizing: border-box;
     display: block;
     width: 100%;
     min-height: 20vh;
     margin-top: 2rem;
     font-size: large;
-    font-family: 'Kalam', cursive;
+    font-family: 'Mali', cursive;
 }
 
-#btn-translate{
+#btn-translate {
     background-color: var(--primary);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
-    font-family: 'Kalam', cursive;
     font-size: large;
+    color: #F2C94C;
 }
 
-
-#output{
+#output {
     border: 1px solid black;
     width: 100%;
     min-height: 10vh;
-    max-height: 20vh;
+    /* max-height: 40vh; */
     overflow: scroll;
+    background-color: white;
+    scrollbar-color: var(--black);
+    margin-bottom: 30px;
 }
 
-footer{
+footer {
     text-align: center;
-    background-color:var(--primary);
+    background-color: var(--primary);
     width: 100%;
-    position: fixed;
+    position: relative;
     padding: 1rem;
     bottom: 0;
+    color: #F2C94C;
 }
-
 
 footer p {
     max-width: var(--width-break);
